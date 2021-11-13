@@ -1,0 +1,134 @@
+ /* ========= Reset styles ========= */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    color:rgb(82, 82, 82);
+}
+
+/* ========= Header block styles ========= */
+.header1 {
+    background-color: rgb(195, 195, 195);
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+/* ========= Logo block styles ========= */
+.logo {
+    font-size: 1.2em;
+}
+
+/* ========= Nav block styles ========= */
+nav ul li{
+    display: inline;
+    
+}
+li a {
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+    font-size: 0.9em;
+    padding-left: 0.5em;
+}
+a {
+    list-style-type: none;
+}
+
+/* ========= Header2 block styles ========= */
+.header2 {
+    background-color: rgb(195, 195, 195);
+    padding: 1em 4em 1em;
+    margin-bottom: 1em;
+}
+header .intro {
+    display: inline-block;
+    margin-left: 3.4em;
+}
+.intro h1 {
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 0.3em;
+}
+.intro p {
+    line-height: 1.4em;
+}
+.card {
+    background-color: rgb(145, 145, 145);
+    padding: 3em 6em 2em 3em;
+    margin-right: 3.4em;
+}
+header aside.featured {
+    display: inline;
+    float: right; 
+}
+
+/* ========= Buttons block style ========= */
+section .buttons {
+    background-color: rgb(195, 195, 195);
+    border: none;
+    border-radius: 50%;
+    padding: 1em;
+    display: inline-block;
+    margin: 0.3em;
+}
+.buttons {
+    text-align: end;
+    margin-right: 12em;
+    margin-bottom: 1em;
+}
+
+/* ========= Main block styles ========= */
+
+main {
+    display: block; 
+}
+div .services {
+    display: flex;
+    margin-bottom: 2em;
+    justify-content: center;
+    gap: 1em;
+}
+div .boxes {
+    display: flex;
+    margin-bottom: 2em;
+    justify-content: center;
+    gap: 1em;
+}
+.six-box {
+    display: flex;
+    background-color: rgb(195, 195, 195);
+    padding: 5em 3em;
+    color: rgb(90, 90, 90); 
+    font-weight: lighter; 
+}
+.box {
+    display: inline-block;
+    background-color: rgb(195, 195, 195);
+    padding: 4.5em 3.4em;
+    color: rgb(90, 90, 90);  
+    font-weight: lighter;
+}
+main .twitter {
+    display: flex;
+    background-color: rgb(195, 195, 195);
+    color:rgb(82, 82, 82);
+    width: 32em;  
+    margin: 2em auto;   
+    padding: 1.5em 7em 1.5em 2em;
+}
+
+/* ========= Footer block styles ========= */
+
+.navbar-info {
+    display: flex;    
+    background-color: rgb(195, 195, 195);
+    color:rgb(82, 82, 82);
+    justify-content: space-around;
+    padding: 1.5em 0;
+}
+footer ul li {
+    display: inline;
+}
